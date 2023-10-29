@@ -1,0 +1,197 @@
+{
+  "waypoints": [
+    {
+      "anchorPoint": {
+        "x": 1.89,
+        "y": 4.98
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.8899999999999997,
+        "y": 4.98
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "GripCone",
+          "Place2",
+          "Release2"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 7.093646168199256,
+        "y": 4.60121617140609
+      },
+      "prevControl": {
+        "x": 6.093646168199256,
+        "y": 4.60121617140609
+      },
+      "nextControl": {
+        "x": 6.093646168199256,
+        "y": 4.60121617140609
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 1.89,
+        "y": 4.43
+      },
+      "prevControl": {
+        "x": 4.644137731434483,
+        "y": 4.605470602444619
+      },
+      "nextControl": {
+        "x": 4.644137731434483,
+        "y": 4.605470602444619
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [
+          "Stop",
+          "Place2",
+          "Release2"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 7.055382416254092,
+        "y": 3.4006909541265387
+      },
+      "prevControl": {
+        "x": 5.983997361789473,
+        "y": 5.079513070720652
+      },
+      "nextControl": {
+        "x": 5.983997361789473,
+        "y": 5.079513070720652
+      },
+      "holonomicAngle": -55.05433559999434,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "Stop"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 1.9089077796294014,
+        "y": 3.8694219154548097
+      },
+      "prevControl": {
+        "x": 2.415902492902838,
+        "y": 5.347359334336807
+      },
+      "nextControl": null,
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "Stop",
+          "Place2",
+          "Release2",
+          "Retract"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    }
+  ],
+  "maxVelocity": 3.0,
+  "maxAcceleration": 2.5,
+  "isReversed": null,
+  "markers": [
+    {
+      "position": 0.043636363636398424,
+      "names": [
+        "Retract"
+      ]
+    },
+    {
+      "position": 0.4800000000000182,
+      "names": [
+        "RunIntakeCube",
+        "RunConveyor"
+      ]
+    },
+    {
+      "position": 0.9454545454544889,
+      "names": [
+        "SideIntake"
+      ]
+    },
+    {
+      "position": 1.9,
+      "names": [
+        "GripCube",
+        "StopIntake",
+        "StopConveyor"
+      ]
+    },
+    {
+      "position": 2.3563636363637555,
+      "names": [
+        "RunIntakeCone",
+        "RunConveyor"
+      ]
+    },
+    {
+      "position": 3.05,
+      "names": [
+        "SideIntake"
+      ]
+    },
+    {
+      "position": 3.781818181818503,
+      "names": [
+        "GripCone",
+        "StopIntake",
+        "StopConveyor"
+      ]
+    },
+    {
+      "position": 2.02,
+      "names": [
+        "Retract"
+      ]
+    }
+  ]
+}
